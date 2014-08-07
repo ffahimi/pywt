@@ -34,7 +34,7 @@
         #include "Python.h"
     #endif
     
-    typedef Py_ssize_t index_t;
+//    typedef Py_ssize_t index_t;
 
     // using Python's memory manager
     #define wtmalloc(size)      PyMem_Malloc(size)
